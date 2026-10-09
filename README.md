@@ -1,5 +1,4 @@
 # Smod-Toolgun
-This repository is to help with creating add-ons for the Scrap Mechanic mod: SMOD
 
 Hello! Thanks for taking interest in making addons for my toolgun!
 
