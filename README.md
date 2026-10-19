@@ -1,4 +1,5 @@
-# Smod-Toolgun
+# Smod-Toolgun-PhysAddon
+This version has another example script of the Physgun mode available on the workshop at https://steamcommunity.com/sharedfiles/filedetails/?id=3823146147
 
 Hello! Thanks for taking interest in making addons for my toolgun!
 
