@@ -1,4 +1,5 @@
-# Smod-Toolgun
+# Smod-Toolgun-Preview
+This version has a basic preveiw image base for your addon.
 
 Hello! Thanks for taking interest in making addons for my toolgun!
 
