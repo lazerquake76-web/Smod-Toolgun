@@ -15,7 +15,9 @@ end
 function CustomModeAddon.client_onCreate( self )
     -- add the button to the list of mode addons
     -- addon is always = to self, key is whatever you use for your addonKey, and the name is the button's caption.
-    table.insert( sm.Smod.modeAddons, { addon = self, key = addonKey, name = "Antigrav" } )
+    if self.tool:isLocal() then
+        table.insert( sm.Smod.modeAddons, { addon = self, key = addonKey, name = "Antigrav", player = sm.localPlayer.getPlayer() } )
+    end
 end
 
 
