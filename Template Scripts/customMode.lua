@@ -9,6 +9,9 @@ end
 
 ---This autotools client onCreate. self works with client_Toolgun_ functions.
 function CustomModeAddon.client_onCreate( self )
+    if self.tool:isLocal() then
+        table.insert( sm.Smod.modeAddons, { addon = self, key = addonKey, name = "TEST_NAME", player = sm.localPlayer.getPlayer() } )
+    end
 end
 
 
